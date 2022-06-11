@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sophia's Personal Website</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.14.0/css/all.css"
+      integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc"
+      crossorigin="anonymous"
+    />
+</head>
+<body>
+    <!--Navbar Section-->
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="#home" id="navbar__logo">SOPHIA WANG</a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links" id="home-page">Home</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#about" class="navbar__links" id="about-page">About</a>
+            </li>
+            <li class="navbar__item">
+                <a href="#projects" class="navbar__links" id="projects-page">Projects</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="#sign-up" class="button" id="contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <div class="hero" id="home">
+        <div class="hero__container">
+            <h1 class="hero__heading"> Welcome! I am <span> Sophia </span></h1>
+            <p class="hero__description">Learn more about me...</p>
+            <button class="main__btn"><a href="#Explore">Scroll!</a></button>
+        </div>
+    </div>
+
+    <!--About Section -->
+    <div class="main" id="about">
+        <div class="main__container">
+            <div class="main__img--container">
+                <div class="main__img--card"><i class="fas fa-user-tie"></i></div>
+            </div>
+            <div class="main__content">
+                <h1>Who am I?</h1>
+                <h2>My name is Sophia Wang</h2>
+                <p>I am a grade 10 ICT SHSM enrolled student at Pierre Elliott Trudeau High School. I am eager to learn more about mobile app developement, web development, and game development. Outside of school, I love to play my guitar, dance, and code!</p>
+                <p></p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Projects Sections -->
+    <div class="projects" id="projects">
+        <h1>My Projects</h1>
+        <div class="services__wrapper">
+          <div class="services__card">
+            <h2>Python Turtle Graphics Comic</h2>
+            <p>Using turtle graphics to replicate a short comic</p>
+            <div class="services__btn"><button onclick="window.location.href='https://docs.google.com/document/d/1pwDs5Hb1XhjJr2jCnE_8n0ObiwyssrGSK8RBN2NbORI/edit?usp=sharing'">View</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Python Guess the Word</h2>
+            <p>A fun word guessing game through python!</p>
+            <div class="services__btn"><button onclick="window.location.href='https://replit.com/@s8phias/Guess-the-Word-Game?v=1'">View</button></div>
+          </div>
+          <div class="services__card">
+            <h2>Dinosaur Run</h2>
+            <p>A dinosaur obstacle game that you can freely play on a computer!<p>
+            <div class="services__btn"><button onclick="window.location.href='https://dinosaurrun.netlify.app/'">View</button></div>
+          </div>
+        </div>
+      </div>
+ 
+          <!-- Features Section -->
+    <div class="main" id="sign-up">
+        <div class="main__container">
+          <div class="main__content">
+            <h1>Want to reach me?</h1>
+            <h2>Here's how to contact me!</h2>
+            <div class="contact__btn"><button onclick="window.location.href='https://forms.gle/FS7AFA6L36TxHBwD6'">Click Here</button></div>
+          </div>
+          <div class="main__img--container">
+            <div class="main__img--card" id="card-2">
+              <i class="fas fa-users"></i>
+            </div>
+          </div>
+        </div>
+      </div>
